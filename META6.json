@@ -1,0 +1,12 @@
+{
+"perl"         : "6.c",
+"name"         : "cat",
+"license"      : "Artistic-2.0",
+"version"      : "0.0.9",
+"auth"         : "github:author",
+"authors"      : ["First Last"],
+"description"  : "file catenation utility",
+"provides"     : { "catenate" : "lib/catenate.pm6" },
+"test-depends" : [ "Test", "Test::META"  ],
+"resources"    : [ "scripts/cat.pl" ]
+}
